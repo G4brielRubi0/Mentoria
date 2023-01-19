@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    
+    background: #535971;
+    width: 100%;
+    height: 436px;
+    z-index: -1;
+}
+
+.page{
+    margin: auto;
+    width: 750px;
+}
+
+header{
+    width: 345px;
+    padding-top: 140px;
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-weight: 400;
+    
+    margin-bottom: 18px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+form{
+    padding: 64px;
+    background: #E6E6F0;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+    min-height: 300px;
+    margin-top: 58px;
+}
+
+
+fieldset{ 
+    border: none;
+}
+
+
+fieldset legend{
+    
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 24px;
+    
+    line-height: 34px;
+    color: #535971;
+    
+    border-bottom: 1px solid black;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.name{
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    margin-top: 36px;
+}
+
+.input-wrapper input,
+.input-container input{
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    width: 300px;
+    height: 56px;
+    margin-top: 8px;
+}
+
+.input-wrapper label,
+.input-container label{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+}
+
+.input-containers{
+    display: flex;
+    flex-direction: column;
+      
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 16px;
+    color: #4E4958;
+}
+
+.input-containers span{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 12px;
+
+    color: #C1BCCC;
+}
+
+.input-containers input{
+    width: 622px;
+    height: 56px;
+    
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+
+.input-info{
+    margin-top: 30px;
+}
+
+.sub-title{
+    font-family: 'Staatliches';
+    font-size: 20px;
+    line-height: 34px;
+    color: #535971;
+
+    margin-top: 32px;
+    margin-bottom: 11px;
+}
+
+.col-3{
+    display: flex;
+    gap: 10px;
+}
+
+.col-3>div:nth-child(1) input{
+    width: 300px;
+    height: 56px;
+    gap: 30px;
+}
+
+
+.col-3>div:nth-child(2) input{
+     width: 140px;
+     height: 56px;
+}
+
+.col-3>div:nth-child(3) input{
+    width: 140px;
+    height: 56px;
+}
+
+
+footer{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;   
+   
+    margin-top: 64px;
+    background: #535971;
+    
+    width: 750px;
+    height: 160px;
+
+    border-radius: 0 0 20px 20px;   
+    
+    margin-bottom: 300px;
+}
+
+footer button{
+    width: 608px;
+    height: 55px;
+    border: 0;
+    
+    background: #FF5374;
+    border-radius: 20px;
+}
+
+footer button:hover{
+    background: #a0374c;
+}
+
+
+
+footer button span{
+    width: 50px;
+    height: 26px;
+    
+    font-family: 'Staatliches';
+    font-size: 20px;
+    line-height: 26px;
+    
+    color: #FFFFFF;
+}
+    
+    
+   
+    
+
+
+
+/* ENTENDER OS COMANDO DO CSS DENTRO DE CADA {     } É O MAIS IMPORTANTE, PARA O TRABALHO SER FLEQUISIVEL.
+
+
+
